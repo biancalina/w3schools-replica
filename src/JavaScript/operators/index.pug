@@ -1,0 +1,15 @@
+extends ../../_component/layout/template
+
+block cool-config
+  -
+    var myTitle = 'JavaScript Arithmetic Operators';
+    var myDescription = 'Arithmetic operators are used to perform arithmetic on numbers';
+    var landingPage = 'JavaScript';
+    var activeLink = '/javascript/operators';
+
+block awesome-content
+  h1=myTitle
+  p=myDescription
+  var x = 5 + 5;
+  var y = "5" + 5;
+  var z = "Hello" + 5;

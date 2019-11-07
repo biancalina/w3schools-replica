@@ -83,17 +83,23 @@ nav {
     display: inline-block;
     width: 100%;
 
-    &::hover {
+    &:hover {
       background-color: var(--color-scorpion);
       color: var(--color-white);
     }
-  }
-}  
 
-footer{
+    &.current {
+      background-color: var(--color-fruit-salad);
+      color: var(--color-white);
+    }
+  }
+}
+
+  footer{
   display: flex;
-  justify-content: centre;
-  align-items: centre;
+  justify-content: center;
+  align-items: center;
+  color: #adde18;
 }
 
 article {
